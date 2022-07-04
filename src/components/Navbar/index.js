@@ -24,7 +24,7 @@ const Navbar = () => {
     const [selected, setSelected] = useState(0);
 
     return (
-        <nav className='absolute top-0 left-0 w-full h-24 flex justify-between items-center px-5 sm:px-28'>
+        <nav className='absolute top-0 left-0 z-20 w-full h-24 flex justify-between items-center px-5 sm:px-28'>
             <span className='font-bold text-2xl font-mono'>EduHive</span>
             <AnimateSharedLayout transition={{ duration: 0.2 }}>
                 <ul className='hidden sm:flex items-center text-xl font-medium space-x-10 text-slate-500'>

@@ -1,0 +1,8 @@
+.image {
+  mask-image: url("/src/assets/Mask.png");
+  mask-position: 6rem 8rem;
+  mask-size: 80%;
+  mask-repeat: no-repeat;
+  z-index: 1;
+
+}

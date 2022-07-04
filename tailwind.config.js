@@ -6,11 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-   
+
     },
     fontFamily: {
-        sans: ['Encode Sans', 'sans-serif'],
-      }
+      sans: ['Encode Sans', 'sans-serif'],
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 }

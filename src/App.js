@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 
 import Options from './components/options'
 import Review from './components/review'
+import Pricing from './components/pricing';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     <Options/>
     <Courses/>
     <Review/>
+    <Pricing/>
     </main>
     </>
   )

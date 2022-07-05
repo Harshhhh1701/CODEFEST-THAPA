@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .image {
   mask-image: url("/src/assets/Mask.png");
   mask-position: 6rem 8rem;

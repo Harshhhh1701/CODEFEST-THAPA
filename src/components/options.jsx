@@ -3,7 +3,8 @@ import { AiFillMacCommand } from 'react-icons/ai';
 import optionsBg from "../assets/optionsbg.png"
 const Options = () => {
     return (
-        <><div className='h-24'><img src={optionsBg} alt="" /></div>
+        <>
+        <div className='flex justify-center '><img src={optionsBg} alt="" /></div>
         <div className='flex flex-col pl-44 pr-72 space-y-14 h-[80vh] pt-24 '>
             
             <div className='space-y-5 flex w-full '>

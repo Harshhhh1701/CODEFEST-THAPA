@@ -9,6 +9,7 @@ import Review from './components/review'
 import Pricing from './components/pricing';
 
 import ECourses from "./components/ECourses";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
     <Courses/>
     <Review/>
     <Pricing/>
+    <Footer/>
     </main>
       
     </>

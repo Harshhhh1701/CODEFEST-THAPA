@@ -6,3 +6,37 @@
   z-index: 1;
 
 }
+.button{
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.button:hover {
+  color: indigo;
+}
+.button::after {
+  border-radius: inherit;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgb(200, 198, 255);
+  transition: all 0.5s ease-in;
+
+  /* animation: button_reveal 0.5s ease-in-out forwards; */
+}
+
+.button:hover::after {
+  width: 100%;
+}
+@keyframes button_reveal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

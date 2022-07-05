@@ -13,10 +13,11 @@ const App = () => {
     <main className='relative w-full min-h-screen box-border bg-blue-50 font-sans'>
       <Navbar />
       <HeroSection />
-    </main>
+    
     <Options/>
     <Courses/>
     <Review/>
+    </main>
     </>
   )
     

@@ -5,7 +5,7 @@ import Img4 from '../assets/img4.jfif'
 const Courses = () => {
   return (
     <>
-    <div className='w-full py-[10rem] px-4 bg-white mt-10 '>
+    <div className='w-full py-[10rem] px-4  mt-10 '>
         <p className='pb-24 pl-36 font-serif text-3xl font-semibold'>Recently added courses</p>
       <div className='max-w-[1240px] mx-auto grid justify-center md:grid-cols-4 gap-8'>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>

@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <>
       <div className="flex bg-blue-200 h-screen  rounded-md items-center">
-        <div className="flex space-x-8 h-2/5 w-full items-center mx-8 justify-evenly">
+        <div className="hidden sm:flex space-x-8 h-8/10 w-full items-center mx-8 justify-evenly">
           {arr.map((item, id) => (
             <div
               key={id}
@@ -18,7 +18,7 @@ const Pricing = () => {
               <div key={id} className="bg-slate-200 h-32 w-52 mx-16 mt-5"></div>
               <div
                 key={id}
-                className="bg-slate-300 h-6 w-24 mx-32 mt-12 rounded-lg"
+                className="bg-slate-300 h-6 w-24 mx-32 mt-6 mb-4 rounded-lg"
               ></div>
             </div>
           ))}
@@ -44,7 +44,7 @@ const Pricing = () => {
                     <div className="bg-white h-6 w-24 mx-32 mt-12 rounded-lg border-solid border-2 border-slate-400"></div>
                 </div> */}
         </div>
-        <div className="pt-8 text-lg font-sans w-full font-semibold">
+        <div className="px-8 pt-8 text-lg font-sans w-full font-semibold">
           <h1 className="text-xl font-medium">Our pricing plans</h1>
           <p className="text-5xl font-bold text-indigo-900">
             Great ready to learn

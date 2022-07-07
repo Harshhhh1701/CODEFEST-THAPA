@@ -22,9 +22,9 @@ const spanVariants = {
 
 const HeroSection = () => {
   return (
-    <div className="h-screen w-screen grid grid-cols-2 items-center justify-items-center">
-      <div className="ml-28">
-        <h1 className="text-7xl font-bold uppercase relative text-indigo-900 tracking-wider text-shadow-md">
+    <div className="h-screen w-screen grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center">
+      <div className="sm:ml-28">
+        <h1 className="text-xl sm:text-7xl font-bold uppercase relative text-indigo-900 tracking-wider text-shadow-md">
           <motion.span
             variants={spanVariants}
             initial="initial"
@@ -62,7 +62,7 @@ const HeroSection = () => {
         <Input />
       </div>
 
-      <div className="flex h-full justify-center relative w-full">
+      <div className="hidden sm:flex h-full justify-center relative w-full">
         <img src={Hero} alt="Hero" className="object-cover image w-full" />
         <div className="absolute inset-28 bg-blue-800 rounded-full blur-[80px] opacity-40" />
         <motion.div

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { BiSearchAlt } from "react-icons/bi";
 import PrimaryButton from "../PrimaryButton";
 import SecondaryButton from "../SecondaryButton";
 import { motion, AnimateSharedLayout } from "framer-motion";
@@ -62,7 +63,10 @@ const Navbar = () => {
           </div>
         </ul>
       </AnimateSharedLayout>
+      <div className="flex space-x-6">
+      <BiSearchAlt size={20} className="sm:hidden" />
       <GiHamburgerMenu size={20} className="sm:hidden" />
+      </div>
     </nav>
   );
 };

@@ -1,4 +1,8 @@
-body{
+* {
+  scroll-behavior: smooth;
+}
+
+body {
   overflow-x: hidden;
 }
 .image {
@@ -7,9 +11,8 @@ body{
   mask-size: 80%;
   mask-repeat: no-repeat;
   z-index: 1;
-
 }
-.button{
+.button {
   position: relative;
   z-index: 0;
   overflow: hidden;

@@ -21,9 +21,9 @@ const links = [
 const Navbar = () => {
   const [selected, setSelected] = useState(0);
   return (
-    <nav className="translate-y-10 translate-x-10 w-[30%]">
+    <nav className="sm:translate-y-10 sm:translate-x-10 w-[85%] sm:w-[30%] overflow-scroll sm:overflow-hidden py-5 sm:py-0 px-5 sm:px-0">
       <AnimateSharedLayout>
-        <ul className="grid grid-cols-5 grid-rows-1 hover:cursor-pointer">
+        <ul className="grid grid-cols-5 grid-rows-1 hover:cursor-pointer min-w-[400px]">
           {links.map((item, id) => {
             return (
               <motion.span

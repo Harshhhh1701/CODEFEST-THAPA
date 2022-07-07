@@ -23,7 +23,10 @@ const spanVariants = {
 
 const HeroSection = () => {
   return (
-    <div className="h-screen w-screen grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center">
+    <div
+      id="1"
+      className="h-screen w-screen grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center"
+    >
       <div className="  sm:ml-28">
         <h1 className="text-xl sm:text-7xl font-bold uppercase sm:relative text-indigo-900 tracking-wider text-shadow-md">
           <motion.span
@@ -58,10 +61,14 @@ const HeroSection = () => {
           >
             Education
           </motion.span>
-          <div className="bg-red-900 absolute top-0 left-0 w-full h-full blur-[40px] opacity-20 rounded-lg -z-1" />
-          <div className="sm:hidden flex justify-center mt-8"><PrimaryButton>Get Started</PrimaryButton></div>
+          <div className="hidden sm:block bg-red-900 absolute top-0 left-0 w-full h-full blur-[40px] opacity-20 rounded-lg -z-1" />
+          <div className="sm:hidden flex justify-center mt-8">
+            <PrimaryButton>Get Started</PrimaryButton>
+          </div>
         </h1>
-        <div className="hidden sm:flex"><Input /></div>
+        <div className="hidden sm:flex">
+          <Input />
+        </div>
       </div>
 
       <div className="hidden sm:flex h-full justify-center relative w-full">

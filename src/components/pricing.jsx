@@ -4,7 +4,10 @@ const Pricing = () => {
   const arr = new Array(1, 2, 3);
   return (
     <>
-      <div className="flex bg-blue-200 h-screen  rounded-md items-center">
+      <div
+        id="6"
+        className="flex bg-blue-200 h-screen  rounded-md items-center"
+      >
         <div className="hidden sm:flex space-x-8 h-8/10 w-full items-center mx-8 justify-evenly">
           {arr.map((item, id) => (
             <div

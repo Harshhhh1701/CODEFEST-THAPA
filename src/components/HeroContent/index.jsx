@@ -3,13 +3,60 @@ import Hero from "../../assets/hero.jpg";
 import { FaThumbsUp, FaHeart } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+const spanVariants = {
+  initial: {
+    opacity: 0,
+    translateX: -10,
+    clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+  },
+  animate: {
+    opacity: 1,
+    translateX: 0,
+    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+};
+
 const HeroSection = () => {
   return (
     <div className="h-screen w-screen grid grid-cols-2 items-center justify-items-center">
       <div className="ml-28">
         <h1 className="text-7xl font-bold uppercase relative text-indigo-900 tracking-wider text-shadow-md">
-          Grow your <span className="text-amber-400">career</span> with Quality
-          <span className="text-amber-400">Education</span>
+          <motion.span
+            variants={spanVariants}
+            initial="initial"
+            animate={"animate"}
+          >
+            Grow your
+          </motion.span>{" "}
+          <motion.span
+            variants={spanVariants}
+            initial="initial"
+            animate={"animate"}
+            className="text-amber-400"
+          >
+            career
+          </motion.span>
+          <br />
+          <motion.span
+            variants={spanVariants}
+            initial="initial"
+            animate={"animate"}
+          >
+            {" "}
+            with Quality{" "}
+          </motion.span>
+          <motion.span
+            variants={spanVariants}
+            initial="initial"
+            animate={"animate"}
+            className="text-amber-400"
+          >
+            Education
+          </motion.span>
           <div className="bg-red-900 absolute top-0 left-0 w-full h-full blur-[40px] opacity-20 rounded-lg -z-1" />
         </h1>
         <Input />

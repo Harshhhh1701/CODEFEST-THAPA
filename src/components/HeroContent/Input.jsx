@@ -11,7 +11,7 @@ const Input = () => {
           placeholder="Search for course"
         />
       </div>
-      <select className="rounded-lg block px-5 h-full bg-clip-padding  transition ease-in-out m-0 focus:outline-none">
+      <select className="rounded-lg block px-5 h-full bg-clip-padding  transition ease-in-out m-0 focus:outline-none bg-white">
         <option>UI Design</option>
         <option>Front-End</option>
         <option>Back-End</option>

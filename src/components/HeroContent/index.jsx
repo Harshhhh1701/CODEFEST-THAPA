@@ -59,7 +59,7 @@ const HeroSection = () => {
             Education
           </motion.span>
           <div className="bg-red-900 absolute top-0 left-0 w-full h-full blur-[40px] opacity-20 rounded-lg -z-1" />
-          <div className="flex justify-center mt-8"><PrimaryButton>Get Started</PrimaryButton></div>
+          <div className="sm:hidden flex justify-center mt-8"><PrimaryButton>Get Started</PrimaryButton></div>
         </h1>
         <div className="hidden sm:flex"><Input /></div>
       </div>

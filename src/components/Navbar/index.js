@@ -38,14 +38,13 @@ const Navbar = () => {
               <motion.li
                 initial={{ fontSize: "normal" }}
                 animate={{ fontSize: "bold", transition: { duration: 2 } }}
-                lay
                 key={index}
                 className="relative"
                 onClick={() => setSelected(index)}
               >
                 <a
                   className={
-                    index === selected && "text-indigo-900 font-semibold"
+                    index === selected ? "text-indigo-900 font-semibold" : ""
                   }
                   href={link.link}
                 >

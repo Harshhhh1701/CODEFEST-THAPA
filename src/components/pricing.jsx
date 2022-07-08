@@ -14,15 +14,12 @@ const Pricing = () => {
               key={id}
               className="flex bg-white h-full w-1/4 flex-col justify-center items-center rounded-lg shadow-2xl shadow-cyan-500/50"
             >
-              <div key={id} className="bg-slate-300 h-3 w-36 mx-24 mt-3"></div>
-              <div key={id} className="bg-slate-300 h-2 w-52 mx-16 mt-3"></div>
-              <div key={id} className="bg-slate-300 h-2 w-52 mx-16 mt-3"></div>
-              <div key={id} className="bg-slate-300 h-2 w-52 mx-16 mt-3"></div>
-              <div key={id} className="bg-slate-200 h-32 w-52 mx-16 mt-5"></div>
-              <div
-                key={id}
-                className="bg-slate-300 h-6 w-24 mx-32 mt-6 mb-4 rounded-lg"
-              ></div>
+              <div className="bg-slate-300 h-3 w-36 mx-24 mt-3"></div>
+              <div className="bg-slate-300 h-2 w-52 mx-16 mt-3"></div>
+              <div className="bg-slate-300 h-2 w-52 mx-16 mt-3"></div>
+              <div className="bg-slate-300 h-2 w-52 mx-16 mt-3"></div>
+              <div className="bg-slate-200 h-32 w-52 mx-16 mt-5"></div>
+              <div className="bg-slate-300 h-6 w-24 mx-32 mt-6 mb-4 rounded-lg"></div>
             </div>
           ))}
 

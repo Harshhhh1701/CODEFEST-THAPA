@@ -52,7 +52,7 @@ const ECourses = () => {
       <div className="h-full bg-blue-200 rounded-lg shadow-lg shadow-cyan-900/40 pb-8">
         {/* Nav */}
         <Navbar />
-        <div className="grid grid-cols-1 sm:grid-cols-4 sm:grid-rows-1 w-full h-full items-center space-y-5 sm:px-10 justify-items-center mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-4 sm:grid-rows-1 w-full h-full items-center space-y-5 sm:space-x-4 sm:space-y-0 sm:px-10 justify-items-center mt-5">
           {/* Card */}
           {Link.map((link, index) => (
             <Card key={index} data={link} />

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Pricing = () => {
-  const arr = new Array([1, 2, 3]);
+  const arr = [1, 2, 3];
   return (
     <>
       <div

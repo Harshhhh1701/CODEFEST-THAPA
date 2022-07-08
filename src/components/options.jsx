@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillMacCommand } from "react-icons/ai";
-import { FaReact, FaNodeJs, FaRegNewspaper } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 import optionsBg from "../assets/optionsbg.png";
 const Options = () => {
   return (

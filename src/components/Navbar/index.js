@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
           </ul>
         </AnimateSharedLayout>
-        <div className="sm:hidden space-x-6">
+        <div className="flex sm:hidden space-x-6">
           <BiSearchAlt size={20} className="sm:hidden" />
           <GiHamburgerMenu
             size={20}
